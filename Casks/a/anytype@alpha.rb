@@ -1,11 +1,11 @@
 cask "anytype@alpha" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.42.27"
-  sha256 arm:   "1d3366fe8ce6ea0b66aec78f9731ba4e182c1971c56c8475b3d584f59139e24c",
-         intel: "49664837bdf3603010f8ceb74bbd8982b0cb75b0662550ae5b35535da6eba8c1"
+  version "0.42.45-beta"
+  sha256 arm:   "bd623bd44a33b46d1a970615f8fd674cbe9e59ca98c7dfa4f6d9da44e3353749",
+         intel: "eeb7f88e08a0b08bc0254f593b6231b9a342c6114f62f8bd4148e62a34ded583"
 
-  url "https://anytype-release.fra1.cdn.digitaloceanspaces.com/Anytype-#{version}-alpha-mac-#{arch}.dmg",
+  url "https://anytype-release.fra1.cdn.digitaloceanspaces.com/Anytype-#{version}-mac-#{arch}.dmg",
       verified: "anytype-release.fra1.cdn.digitaloceanspaces.com/"
   name "Anytype"
   desc "Local-first and end-to-end encrypted notes app"
